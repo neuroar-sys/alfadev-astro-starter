@@ -2,7 +2,7 @@
 # Does not contain meta customizations because it is the homepage and config is already set in the config file
 
 banner:
-  title: 'Transforma <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Tus  </span>tus hábitos class="text-secondary"> en 21 días </span>'
+  title: 'transforma <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">tu vida </span> en solo <span class="text-secondary"> 21 dias.</span>'
   title_size: "text-4xl md:text-6xl"
   content: Unite a un programa intensivo y grupal para cambiar tu vida con desafíos diarios y seguimiento personalizado  
   image: /images/logo_v5_xl_pfp.webp
