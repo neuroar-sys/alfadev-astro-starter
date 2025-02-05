@@ -45,7 +45,7 @@ call_to_action:
 
 ---
 
-import Button from '../../components/Button.astro';
+import Button from './components/Button.astro'; // Importación corregida
 
 <Button 
   label="¡Únete ahora!" 
