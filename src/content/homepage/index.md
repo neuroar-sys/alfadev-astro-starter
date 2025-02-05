@@ -121,11 +121,11 @@ testimonial:
 call_to_action:
   title: "Because we love <span class='text-accent text-shadow-[0px_5px_15px]' >Astro</span> and <span class='text-[#38bdf8] text-shadow-[0px_5px_15px]'>Tailwind</span>."
   description: "Save yourself some time (and sanity). Use this template and act like you planned everything from scratch. We won't tell. **Just be sure to leave a star, please.**"
- ---  <--- CIERRE DEL FRONTMATTER (¡MUY IMPORTANTE!)
+---
 
-import Button from '../../components/Button.astro'; // Importación del componente
+import Button from '../../components/Button.astro';
 
-<Button  // Llamada al componente
+<Button 
   label="¡Únete ahora!" 
   href="https://wa.me/54115757577039?text=estoy%20interesada/o%20en%20el%20programa%20de%20transformación" 
   target="_blank"
