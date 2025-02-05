@@ -1,17 +1,18 @@
 ---
 # Does not contain meta customizations because it is the homepage and config is already set in the config file
+import Button from '../../components/Button.astro'; 
 
 banner:
   title: 'Transforma <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Tus Hábitos  </span> En tan solo <span class="text-secondary"> 21 días </span>'
   title_size: "text-4xl md:text-6xl"
   content: "Unite a un programa intensivo y grupal para cambiar tu vida con desafíos diarios y seguimiento personalizado."  
   image: /images/logo_v5_xl_pfp.webp
-  buttons:
-    - label: Metete
-      href: "https://wa.me/541157577039?text=estoy%20interesada/o%20en%20el%20programa%20de%20 transformación"
-      target: "_blank"
-      icon: _GitHub
-      addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
+  <Button 
+  label="¡Únete ahora!" 
+  href="https://wa.me/54115757577039?text=estoy%20interesada/o%20en%20el%20programa%20de%20transformación" 
+  target="_blank"
+  addClasses="bg-blue-500 hover:bg-blue-700" // Clases de estilo adicionales
+/>
 
 sections:
   - title: Tired of writing the same code over and over again?
