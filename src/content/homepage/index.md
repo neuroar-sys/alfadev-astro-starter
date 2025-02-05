@@ -1,13 +1,11 @@
 ---
-# Does not contain meta customizations because it is the homepage and config is already set in the config file
-
-import Button from '../../components/Button.astro';
+# Configuración de la página de inicio
 
 banner:
-  title: 'An <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Astro</span> Starter <span class="text-secondary"> batteries-included</span>'
+  title: 'Transforma <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Tus Hábitos  </span> En tan solo <span class="text-secondary"> 21 días </span>'
   title_size: "text-4xl md:text-6xl"
-  content: "A fully responsive astro starter repo, ideal for simple (yet laborious) content-driven pages or landings."  
-  image: /images/logo_v5_xl_pfp.webp
+  content: "Unite a un programa intensivo y grupal para cambiar tu vida con desafíos diarios y seguimiento personalizado."  
+  image: /images/logo_v5_xl_pfp.webp # Logo actual
   buttons:
     - label: Get the Code
       href: "https://github.com/diego-alfadev/alfadev-astro-starter"
@@ -123,9 +121,13 @@ testimonial:
 call_to_action:
   title: "Because we love <span class='text-accent text-shadow-[0px_5px_15px]' >Astro</span> and <span class='text-[#38bdf8] text-shadow-[0px_5px_15px]'>Tailwind</span>."
   description: "Save yourself some time (and sanity). Use this template and act like you planned everything from scratch. We won't tell. **Just be sure to leave a star, please.**"
-  button: 
-    label: "Grab the Starter"
-    href: "https://github.com/diego-alfadev/alfadev-astro-starter"
-    color: accent
+ ---  <--- CIERRE DEL FRONTMATTER (¡MUY IMPORTANTE!)
 
----
+import Button from '../../components/Button.astro'; // Importación del componente
+
+<Button  // Llamada al componente
+  label="¡Únete ahora!" 
+  href="https://wa.me/54115757577039?text=estoy%20interesada/o%20en%20el%20programa%20de%20transformación" 
+  target="_blank"
+  addClasses="bg-blue-500 hover:bg-blue-700" 
+/>
