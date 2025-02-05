@@ -1,9 +1,9 @@
 ---
 const { label, href, target, addClasses } = Astro.props;
-import whatsappIcon from '../../public/images/whatsapp.svg'; // Importa el icono de WhatsApp
+import whatsappIcon from '../../public/images/whatsapp.svg';
 ---
 
 <a href={href} target={target} class={`${addClasses} w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border inline-flex items-center justify-center`}>
-  <img src={whatsappIcon} alt="Icono de WhatsApp" class="mr-2 h-5 w-5" /> {/* Muestra el icono */}
+  <img src={whatsappIcon} alt="Icono de WhatsApp" class="mr-2 h-5 w-5" />
   {label}
 </a>
