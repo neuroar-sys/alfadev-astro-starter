@@ -2,7 +2,7 @@
 # Does not contain meta customizations because it is the homepage and config is already set in the config file
 
 banner:
-  title: 'Tu Programa <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">de 21 Días </span> que te ayuda <span class="text-secondary"> a Transformarte</span>'
+  title: 'Tu Programa de <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">21 Días </span> que te ayuda <span class="text-secondary"> a Transformarte</span>'
   title_size: "text-4xl md:text-6xl"
   content: "A fully responsive astro starter repo, ideal for simple (yet laborious) content-driven pages or landings."  
   image: /images/logo_v5_xl_pfp.webp
