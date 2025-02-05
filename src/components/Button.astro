@@ -1,10 +1,11 @@
 ---
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-const { label, href, target, addClasses } = Astro.props; // Añadido addClasses
+
+const { label, href, target, addClasses } = Astro.props;
 ---
 
-<a href={href} target={target} class={`${addClasses} w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border`}> {/* Usando template literals y addClasses */}
+<a href={href} target={target} class={`${addClasses} w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border inline-flex items-center justify-center`}>
+  <FontAwesomeIcon icon={faWhatsapp} className="mr-2" /> {/* Icono de WhatsApp a la izquierda */}
   {label}
-  <FontAwesomeIcon icon={faWhatsapp} />
 </a>
