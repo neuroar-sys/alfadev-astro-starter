@@ -1,3 +1,4 @@
+import CallToAction from '../../components/CallToAction.astro';
 ---
 # Configuración de la página de inicio
 
@@ -6,11 +7,17 @@ banner:
   title_size: "text-4xl md:text-6xl"
   content: "Unite a un programa intensivo y grupal para cambiar tu vida con desafíos diarios y seguimiento personalizado."  
   image: /images/logo_v5_xl_pfp.webp # Logo actual
+ <CallToAction 
+  label="Consultanos" 
+  href="/contacto"  // Reemplaza con la URL de tu página de contacto
+  target="_self" // O "_blank" para abrir en una nueva pestaña
+  addClasses="mt-4" // Clases CSS personalizadas (opcional)
+/>
+  
   buttons:
-    - label: Get the Code
+    - label: Consultanos
       href: "https://github.com/diego-alfadev/alfadev-astro-starter"
       target: "_blank"
-      icon: _GitHub
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
@@ -122,12 +129,3 @@ call_to_action:
   title: "Because we love <span class='text-accent text-shadow-[0px_5px_15px]' >Astro</span> and <span class='text-[#38bdf8] text-shadow-[0px_5px_15px]'>Tailwind</span>."
   description: "Save yourself some time (and sanity). Use this template and act like you planned everything from scratch. We won't tell. **Just be sure to leave a star, please.**"
 ---
-
-import Button from '../../components/Button.astro';
-
-<Button 
-  label="¡Únete ahora!" 
-  href="https://wa.me/54115757577039?text=estoy%20interesada/o%20en%20el%20programa%20de%20transformación" 
-  target="_blank"
-  addClasses="bg-blue-500 hover:bg-blue-700" 
-/>
