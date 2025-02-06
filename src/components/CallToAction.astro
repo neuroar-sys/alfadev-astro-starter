@@ -1,13 +1,11 @@
 ---
 const { label, href, target, addClasses } = Astro.props;
-import whatsappIcon from '../../public/images/whatsapp.svg';
 ---
 
 <a 
   href={href} 
   target={target} 
-  class={`${addClasses ? addClasses : ''} w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border inline-flex items-center justify-center`}
+  class={`${addClasses ? addClasses : ''} w-full inline-flex items-center justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded`}
 >
-  <img src={whatsappIcon} alt="Icono de WhatsApp" class="mr-2 h-5 w-5" />
   {label}
 </a>
