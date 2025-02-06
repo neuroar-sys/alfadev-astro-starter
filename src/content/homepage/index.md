@@ -7,7 +7,7 @@ banner:
   content: "A fully responsive astro starter repo, ideal for simple (yet laborious) content-driven pages or landings."  
   image: /images/logo_v5_xl_pfp.webp
   buttons:
-    - label: Get the Code
+    - label: Consultanos Ahora
       href: "https://github.com/diego-alfadev/alfadev-astro-starter"
       target: "_blank"
       icon: _Phone
