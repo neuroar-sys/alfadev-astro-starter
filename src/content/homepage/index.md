@@ -10,7 +10,7 @@ banner:
     - label: Get the Code
       href: "https://github.com/diego-alfadev/alfadev-astro-starter"
       target: "_blank"
-      icon: 
+      icon: _Phone
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
