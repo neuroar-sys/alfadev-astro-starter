@@ -1,4 +1,4 @@
-import CallToAction from '../../components/CallToAction.astro';
+
 ---
 # Configuración de la página de inicio
 
@@ -7,13 +7,6 @@ banner:
   title_size: "text-4xl md:text-6xl"
   content: "Unite a un programa intensivo y grupal para cambiar tu vida con desafíos diarios y seguimiento personalizado."  
   image: /images/logo_v5_xl_pfp.webp # Logo actual
- <CallToAction 
-  label="Consultanos" 
-  href="/contacto"  // Reemplaza con la URL de tu página de contacto
-  target="_self" // O "_blank" para abrir en una nueva pestaña
-  addClasses="mt-4" // Clases CSS personalizadas (opcional)
-/>
-  
   buttons:
     - label: Consultanos
       href: "https://github.com/diego-alfadev/alfadev-astro-starter"
