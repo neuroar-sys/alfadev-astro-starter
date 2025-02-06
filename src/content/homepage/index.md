@@ -8,7 +8,7 @@ banner:
   image: /images/neuroarlogo.png
   buttons:
     - label: Consultanos Ahora
-      href: "[https://wa.me/1157577039?text=estoy%20interesada/o%20en%20el%20programa%20de%20 transformación]"
+      href: "https://wa.me/1157577039?text=estoy%20interesada/o%20en%20el%20programa%20de%20 transformación"
       target: "_blank"
       icon: _Phone
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
